@@ -13,8 +13,7 @@ quanto arquivos binários;
 - O servidor deverá ser capaz de transmitir arquivos de tamanho muito
 grande;
 
-# Os requisitos mínimos (devem ser implementados obrigatoriamente) são
-o desenvolvimento das respostas com os códigos de resposta a seguir:
+# Os requisitos mínimos (devem ser implementados obrigatoriamente) são o desenvolvimento das respostas com os códigos de resposta a seguir:
 
   - 200 OK:
     Requisição bem-sucedida, objeto requisitado será enviado
@@ -29,8 +28,8 @@ o desenvolvimento das respostas com os códigos de resposta a seguir:
 
   - 404 Not Found
     - Documento requisitado não localizado no servidor;
-    v. 505 Version Not Supported
-   - A versão do HTTP utilizada não é suportada neste
+    - v. 505 Version Not Supported
+    - A versão do HTTP utilizada não é suportada neste
     servidor.
 
 - Com exceção do código 200, o servidor deverá enviar obrigatoriamente

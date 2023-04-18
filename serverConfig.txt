@@ -1,0 +1,2 @@
+LocalFolder-C:\Users\lucan\OneDrive\Documentos\Redes\Project_Web_Server\local
+LocalErrors-C:\Users\lucan\OneDrive\Documentos\Redes\Project_Web_Server\errors

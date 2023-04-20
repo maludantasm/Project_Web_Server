@@ -1,2 +1,2 @@
-LocalFolder-C:\Users\lucan\OneDrive\Documentos\Redes\Project_Web_Server\local
-LocalErrors-C:\Users\lucan\OneDrive\Documentos\Redes\Project_Web_Server\errors
+LocalFolder;/home/maria/Documents/faculdade/repos/web-server-antigo/Project_Web_Server/local
+LocalErrors;/home/maria/Documents/faculdade/repos/web-server-antigo/Project_Web_Server/errors

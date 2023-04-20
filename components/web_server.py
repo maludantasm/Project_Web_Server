@@ -5,12 +5,11 @@ from email.utils import formatdate
 
 from components.http_request_content import *
 
-
 class WebServer:
     def __init__(self, documents, errors):
         self.web_server = socket(AF_INET, SOCK_STREAM)
         self.address = 'localhost'
-        self.web_server.bind((self.address, 4000))
+        self.web_server.bind((self.address, 1111))
         self.web_server.listen()
         self.inspected_folder = documents
         self.errors_folder = errors
@@ -108,7 +107,7 @@ class WebServer:
             crated_index += '<ul>\r\n'
             for document in documents_list:
                 if document.split(".")[0] != 'favicon':
-                    crated_index += f' <li><a href="http://localhost:4000/{file}{document}"' \
+                    crated_index += f' <li><a href="http://localhost:1111/{file}{document}"' \
                                     f'>{document.split(".")[0]}</a></li>\r\n'
             crated_index += '<ul>\r\n'
         crated_index += '</body>\r\n'
